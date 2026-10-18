@@ -1,0 +1,1 @@
+const CACHE='mealflow-v3';self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(['./','./index.html','./data.js','./nutrition.js','./app.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png']))));self.addEventListener('fetch',e=>{if(e.request.method==='GET')e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});

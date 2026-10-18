@@ -1,0 +1,27 @@
+// Nutrient data per 100 g / 100 ml / each / scoop. 'estimate' entries must be checked against packs.
+const nutrientSeed={
+ 'Chicken breast':{kcal:110,p:23,c:0,f:1.5,status:'estimate'},
+ 'Dry medium egg noodles':{kcal:433.6,p:16,c:86.4,f:1.14,status:'label',note:'Scaled from supplied 271 kcal / 62.5g dry serving; other macros from supplied prepared-serving label'},
+ 'Reduced-sugar sweet chilli sauce':{kcal:224,p:.6,c:55,f:.3,status:'label',note:'ASDA label supplied; check product identity (label shows 224 kcal/100g)'},
+ 'Light soy sauce':{kcal:53,p:5,c:5,f:0,status:'estimate'},
+ 'Lime juice':{kcal:22,p:.3,c:1,f:0,status:'label'},
+ 'Cucumber':{kcal:15,p:.7,c:2.2,f:.1,status:'estimate'},
+ 'Dry penne':{kcal:355,p:12.5,c:72,f:1.5,status:'estimate'},
+ 'Honey':{kcal:304,p:.3,c:82.4,f:0,status:'estimate'},
+ 'Soy sauce':{kcal:53,p:5,c:5,f:0,status:'estimate'},
+ '5% chicken mince':{kcal:125,p:20,c:0,f:5,status:'estimate'},
+ '5% beef mince':{kcal:137,p:21,c:0,f:5,status:'estimate'},
+ 'Potatoes':{kcal:77,p:2,c:17,f:.1,status:'estimate'},
+ 'Frozen sweetcorn':{kcal:86,p:3.4,c:16,f:1.2,status:'estimate'},
+ 'Olive oil':{kcal:884,p:0,c:0,f:100,status:'estimate'},
+ 'Bananas':{kcal:105,p:1.3,c:27,f:.4,status:'estimate',basis:'each'},
+ 'Wensleydale + cranberries':{kcal:380,p:17,c:15,f:28,status:'estimate'},
+ 'Breadsticks':{kcal:410,p:12,c:72,f:8,status:'estimate'},
+ 'Smoked salami':{kcal:400,p:22,c:1,f:34,status:'estimate'},
+ 'Cooked chicken breast pieces':{kcal:135,p:27,c:1,f:2,status:'estimate'},
+ 'Catalan sausage':{kcal:210,p:10,c:1,f:18,status:'estimate',basis:'each'},
+ 'Dark chocolate':{kcal:600,p:8,c:46,f:43,status:'estimate'},
+ 'Clear whey':{kcal:75,p:18,c:.5,f:.1,status:'label',basis:'scoop',note:'Bulk Clear Protein 20g serving label'},
+ 'Taco seasoning':{kcal:280,p:8,c:50,f:5,status:'estimate'},
+ 'Worcestershire sauce':{kcal:78,p:0,c:19,f:0,status:'estimate'}
+};
