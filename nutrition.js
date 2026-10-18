@@ -6,6 +6,7 @@ const nutrientSeed={
  'Light soy sauce':{kcal:53,p:5,c:5,f:0,status:'estimate'},
  'Lime juice':{kcal:22,p:.3,c:1,f:0,status:'label'},
  'Cucumber':{kcal:15,p:.7,c:2.2,f:.1,status:'estimate'},
+ 'Spring onions':{kcal:32,p:1.8,c:7.3,f:.2,status:'estimate'},
  'Dry penne':{kcal:355,p:12.5,c:72,f:1.5,status:'estimate'},
  'Honey':{kcal:304,p:.3,c:82.4,f:0,status:'estimate'},
  'Soy sauce':{kcal:53,p:5,c:5,f:0,status:'estimate'},
