@@ -26,3 +26,23 @@ const nutrientSeed={
  'Taco seasoning':{kcal:280,p:8,c:50,f:5,status:'estimate'},
  'Worcestershire sauce':{kcal:78,p:0,c:19,f:0,status:'estimate'}
 };
+
+
+// V6 supplied product labels. Stable names preserve saved product links.
+nutrientSeed["Chicken breast"]={"kcal": 106, "p": 24, "c": 0, "f": 1.1, "status": "label"};
+nutrientSeed["5% chicken mince"]={"kcal": 113, "p": 18.4, "c": 0, "f": 4.4, "status": "label"};
+nutrientSeed["Cooked chicken breast pieces"]={"kcal": 128, "p": 27, "c": 1, "f": 1.6, "status": "label"};
+nutrientSeed["Breadsticks"]={"kcal": 394, "p": 11, "c": 73, "f": 5.6, "status": "label"};
+nutrientSeed["Smoked salami"]={"kcal": 377, "p": 21.5, "c": 0.5, "f": 32, "status": "label"};
+nutrientSeed["Wensleydale + cranberries"]={"kcal": 376, "p": 18.1, "c": 14.2, "f": 27.1, "status": "label"};
+nutrientSeed["Dark chocolate"]={"kcal": 552, "p": 8, "c": 36.2, "f": 39.3, "status": "label"};
+nutrientSeed["Dried mango"]={"kcal": 311, "p": 2.2, "c": 77, "f": 0.9, "status": "label", "note": "Natural Health 4 Life; no added sugar; contains sodium metabisulphite (E223)."};
+nutrientSeed["Light soy sauce"]={"kcal": 70, "p": 5.5, "c": 12, "f": 0, "status": "label"};
+nutrientSeed["Taco seasoning"]={"kcal": 288, "p": 11.2, "c": 36.8, "f": 6.4, "status": "label"};
+nutrientSeed["Frozen sweetcorn"]={"kcal": 80, "p": 3.6, "c": 9.5, "f": 1.9, "status": "label", "note": "ASDA boiled basis; applied to frozen weighed quantity as an estimate of cooking yield."};
+nutrientSeed["Clear whey"]={"kcal": 100, "p": 23, "c": 0.5, "f": 0.5, "status": "label", "basis": "scoop", "note": "Per4m Better Clear Whey: one 30 g scoop"};
+nutrientSeed['Catalan sausage']={kcal:300,p:15,c:2,f:26,status:'estimate',basis:'g',note:'Estimated per 100 g; verify Catalan sausage label.'};
+nutrientSeed['Creatine']={kcal:0,p:0,c:0,f:0,status:'estimate'};
+nutrientSeed['Water']={kcal:0,p:0,c:0,f:0,status:'estimate'};
+nutrientSeed['Dry medium egg noodles'].status='estimate';
+nutrientSeed['Dry medium egg noodles'].note='Blue Dragon: verified energy 433.6 kcal/100 g DRY (271 kcal per serving, four servings per 250 g packet). Other macros are estimates.';
