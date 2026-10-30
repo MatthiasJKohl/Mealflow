@@ -1,0 +1,12 @@
+# For a NEW, preview-only Netlify site connected to this repository.
+# GitHub Pages ignores this file. Do not change GitHub Pages settings.
+[build]
+  command = "node scripts/build-preview.cjs"
+  publish = "preview-dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# No GitHub Pages workflow, pages:write token or production-directory writes.
+# Select fix/weekly-navigation-and-diet-v6 as this separate site's deploy branch.
+# Deploying main/master is rejected by the preview builder.
